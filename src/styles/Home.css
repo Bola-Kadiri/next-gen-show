@@ -1,0 +1,205 @@
+
+  .home{
+   width: 100%;
+   min-height: 100vh;
+  }
+
+.bg-home {
+    position: absolute;
+    background-image: url("../asset/austin-neill-sxxnM-tRlVg-unsplash\ 1\ \(1\).png");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    
+ }
+  
+ .bg-home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .home-container{
+   width: 100%;
+   margin-left: 80px;
+ }
+ .home-content{
+   width: 100%;
+ }
+ .home-content h1{
+   font-size: 55px;
+   word-spacing: 2px;
+   line-height: 60px;
+   margin-bottom: 25px;
+ }
+ .home-content p{
+   width: 25%;
+   font-size: 20px;
+   line-height: 30px;
+   word-spacing: 2px;
+   margin-bottom: 25px;
+   opacity: 0.8;
+ }
+ .home-link{
+   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ .btn-join li{
+   list-style: none;
+  
+   
+}
+.btn-join a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+ 
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 10px 25px;
+   opacity: 0.7;
+}
+ .home-link a{
+   margin-right: 35px;
+   width: 130px;
+   cursor: pointer;
+   border: none;
+   z-index: 200;
+   font-size: 18px;
+   text-decoration: none;
+   background-color: #fff;
+   color: #000;
+   padding: 10px 25px;
+  
+ }
+ .bullet{
+   width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ 
+ .bullet span{
+   width: 100%;
+   margin-left: 10px;
+   font-size: 16px; 
+ }
+ .works{
+   min-height: 100vh;
+   width: 100%; 
+ }
+ .works-content h1{
+   text-align: center;
+   margin-bottom: 15px;
+ }
+ .works-content p{
+   text-align: center;
+   width: 55%;
+   font-size: 20px;
+   line-height: 24px;
+ }
+ .works-para{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .home-requirement{
+   width: 100%;
+   min-height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   padding-top: 30px;
+   
+ }
+ .home-requirement-content{
+   width: 100%;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;  
+ }
+ 
+ .home-req-left{
+   width: 35%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 80px;
+   
+ }
+ .home-req-left-content{
+   width: 100%;
+ }
+ .home-req-center{
+   width: 1px;
+   height: 450px;
+   background-color: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .design{
+   width: 4px;
+   height: 100px;
+   background-color: #000;
+ }
+ .design span{
+   visibility: hidden;
+ }
+ .home-icon{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+ }
+ .home-icon span{
+   width: 100%;
+   margin-left: 50px;
+ }
+ 
+ .home-req-right{
+   width: 65%;
+   height: 450px;
+   margin-right: 80px;
+   display: flex;
+   align-items: center;
+  
+ }
+ .home-req-right-content{
+   margin-left: 100px;
+   padding-left: 10px;
+ }
+ .home-req-right-content img, h2{
+   margin-bottom: 20px;
+ }
+ .home-req-right-content p{
+   width: 80%;
+ }
+ .patner{
+   width: 100%;
+   min-height: 40vh;
+   margin-top: 30px;
+   padding-top: 30px;
+ }
+ 
+ .partner-content h2, p{
+   text-align: center;
+ }

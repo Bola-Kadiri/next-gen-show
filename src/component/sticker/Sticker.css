@@ -1,0 +1,33 @@
+.sticker-content{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-stickers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+}
+
+.first-stickers img{
+   width: 200px;
+   
+}
+.second-stickers{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-stickers img{
+    width: 200px;
+    
+   
+ }
+

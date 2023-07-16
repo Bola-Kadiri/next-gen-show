@@ -1,0 +1,54 @@
+.logo-house{
+    margin-left: 80px;
+    z-index: 200;
+ }
+ 
+ .nav-menu{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    
+    
+
+ }
+ .nav-links{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+ }
+ .nav-links li{
+    list-style: none;
+ }
+ 
+ .nav-links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+ }
+
+ .btn-join{
+    margin-right: 80px;
+    z-index: 200;
+    
+ }
+ .btn-join li{
+    list-style: none;
+   
+    
+ }
+ .btn-join a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    opacity: 0.7;
+ }
