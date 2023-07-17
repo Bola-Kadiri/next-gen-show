@@ -112,11 +112,11 @@ const Home = () => {
                    </div>
                    <div className='event-right'>
                         <div className='event-card'>
-                             <img/>
-                             <img/>
-                             <img/>
-                             <img/>
-                             <img/>
+                             <img alt="img"/>
+                             <img alt="img"/>
+                             <img alt="img"/>
+                             <img alt="img"/>
+                             <img alt="img"/>
                         </div>
                    </div>
               </div>
