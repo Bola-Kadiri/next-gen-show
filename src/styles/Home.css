@@ -34,7 +34,7 @@
  }
  .home-container{
    width: 100%;
-   margin-left: 80px;
+   margin-left: 150px;
  }
  .home-content{
    width: 100%;
@@ -142,11 +142,11 @@
  }
  
  .home-req-left{
-   width: 30%;
+   width: 25%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 80px;
+   margin-left: 150px;
    
  }
  .home-req-left-content{
@@ -159,6 +159,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+
  }
  .design{
    width: 4px;

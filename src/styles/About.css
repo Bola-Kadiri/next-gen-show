@@ -41,3 +41,39 @@
    margin-top: 30px;
    padding-top: 30px;
   }
+  .intro-vision{
+   margin-left: 150px;
+  }
+  .intro-vision h1{
+   color: #017297;
+   margin-top: 30px;
+  }
+  .intro-vision p{
+   width: 85%;
+   margin-bottom: 20px;
+  }
+  .para-vision{
+   font-weight: 700;
+  }
+  .our-vission h1{
+   color: #017297;
+   margin-top: 30px;
+  }
+  
+  .our-vission{
+   margin-left: 150px;
+  }
+  .our-mision{
+   margin-left: 150px;
+  }
+  .our-mision h1{
+   color: #017297;
+   margin-top: 30px;
+  }
+  .our-mision p{
+   width: 85%;
+   margin-bottom: 30px;
+  }
+  .meet-partner h1{
+   text-align: center;
+  }
