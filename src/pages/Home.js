@@ -8,6 +8,10 @@ import req from "../asset/req.png"
 import shortlist from "../asset/shortlist.png"
 import vote from "../asset/vote.png"
 import Stickers from '../component/sticker/Stickers'
+import person_one from "../asset/person-1.png"
+import person_two from "../asset/person-2.png"
+import person_three from "../asset/person-3.png"
+import zigzag from "../asset/zigzag.png"
 const Home = () => {
   return (
 <React.Fragment>
@@ -94,7 +98,82 @@ const Home = () => {
                
               </div>
          </div>
+       
     </div>
+    <div className='event'>
+         <div className='event-content'>
+              <h2>Ongoing Events</h2>
+              <div className='event-box'>
+                   <div className='event-left'>
+                       <h3>Stage Times</h3>
+                       <p>Other Event</p>
+                       <p>Other Event</p>
+                       <p>Other Event</p>
+                   </div>
+                   <div className='event-right'>
+                        <div className='event-card'>
+                             <img/>
+                             <img/>
+                             <img/>
+                             <img/>
+                             <img/>
+                        </div>
+                   </div>
+              </div>
+         </div>
+    </div>
+    <div className='people-say'>
+         <h1>What people say about Us</h1>
+         <div className='people-box'>
+              <div className='people-box-content'>
+              <div className='box-a'>
+                   <p> "elit. Ipsum, perspiciatis autem? Quasi aliquam facilis quae 
+                   alias accusamus voluptatum ex cumque facere! Voluptas iure velit 
+                   aliquid."</p>
+                   <div className='inner-box'>
+                        <img src={person_one} alt={person_one}/>
+                        <div className='inner-box-des'>
+                             <h4>Emmanuel J</h4>
+                             <span>Photographer</span>
+                        </div>
+                   </div>
+              </div>
+              <div className='box-a'>
+                   <p> "elit. Ipsum, perspiciatis autem? Quasi aliquam facilis quae 
+                    alias accusamus voluptatum ex cumque facere! Voluptas iure velit 
+                    aliquid."</p>
+                    <div className='inner-box'>
+                         <img src={person_two} alt={person_two}/>
+                         <div className='inner-box-des'>
+                              <h4>John Wood</h4>
+                              <span>Software Engineer</span>
+                         </div>
+                    </div>
+              </div>
+             <div className='box-a'>
+                  <p> "elit. Ipsum, perspiciatis autem? Quasi aliquam facilis quae 
+                  alias accusamus voluptatum ex cumque facere! Voluptas iure velit 
+                  aliquid."</p>
+                  <div className='inner-box'>
+                       <img src={person_three} alt={person_three}/>
+                       <div className='inner-box-des'>
+                            <h4>Sidwell Mako</h4>
+                            <span>Artist</span>
+                       </div>
+                  </div>
+             </div>
+         </div>
+         </div>
+        
+        </div>
+        <div className='blog'>
+            <div className='blog-header'>
+                 <h2>Our Blog</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                 elit. Ipsum, perspiciatis autem? Quasi aliquam facilis quae </p>
+                 <img src={zigzag} alt={zigzag}/>
+            </div>
+        </div>
 </React.Fragment>
   )
 }
