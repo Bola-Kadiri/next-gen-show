@@ -1,0 +1,106 @@
+.footer{
+    width: 100%;
+    min-height: 80vh;
+}
+.top-footer{
+    width: 100%;
+    height: 332px;
+    background-color: #F5F7FA;
+    padding-bottom: 30px;
+}
+.top-footer h1{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 40px;
+    
+}
+.top-footer p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.bottom-footer{
+    width: 100%;
+    height: 393px;
+    background-color: #061634;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail-input{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+.mail-input input{
+    width: 100%;
+    max-width: 338px;
+    height: 62px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid #017297;
+}
+.mail-input button{
+    width: 129px;
+    height: 62px;
+    background-color: #017297;
+    color: #fff;
+    border: none;
+}
+.bottom-footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.company h4{
+    color: #fff;
+    opacity: 0.9;
+    margin: 20px 0px;
+}
+.company p{
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+.resources h4{
+    color: #fff;
+    opacity: 0.9;
+    margin: 20px 0px;
+}
+.resources p{
+    color: #fff;
+    opacity: 0.6;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.company h4{
+    color: #fff;
+    opacity: 0.9;
+    margin: 20px 0px;
+}
+.company p{
+    color: #fff;
+    opacity: 0.6;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.about-footer h4{
+    color: #fff;
+    opacity: 0.9;
+    margin: 20px 0px;
+}
+.about-footer p{
+    color: #fff;
+    opacity: 0.6;
+    margin-bottom: 15px;
+    font-size: 14px;
+}

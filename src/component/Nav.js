@@ -8,10 +8,10 @@ const Nav = () => {
   return (
     <div className='nav-menu'>
                     <div className='logo-house'>
-                         <img src={logo} alt="img1" className='logo'/>
+                        <Link to="/"><img src={logo} alt="img1" className='logo'/></Link>
                     </div>
                     <div className='nav-links'>
-                         <li><Link to="/">About Us</Link></li>
+                         <li><Link to="/about">About Us</Link></li>
                          <li><Link to="/event">Events</Link></li>
                          <li><Link to="/talents">Talents</Link></li>
                          <li><Link to="/contact">Contact</Link></li>

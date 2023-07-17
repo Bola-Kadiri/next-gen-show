@@ -1,0 +1,43 @@
+.about{
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+   }
+ 
+ .bg-about {
+     position: absolute;
+     background-image: url("../asset/austin-neill-sxxnM-tRlVg-unsplash\ 1\ \(1\).png");
+     width: 100%;
+     min-height: 70vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 0;
+     
+     
+  }
+   
+  .bg-about-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     min-height: 70vh;
+    background-color: rgba(0,0,0, 0.5);
+
+    background-image: linear-gradient(to right, rgba(17, 47, 200, 0.5),rgba(217, 15, 100, 0.5));
+     color: #fff;
+     z-index: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .vission{
+   width: 100%;
+   min-height: 100vh;
+   margin-top: 30px;
+   padding-top: 30px;
+  }

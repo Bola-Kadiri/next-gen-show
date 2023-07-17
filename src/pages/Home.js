@@ -12,6 +12,9 @@ import person_one from "../asset/person-1.png"
 import person_two from "../asset/person-2.png"
 import person_three from "../asset/person-3.png"
 import zigzag from "../asset/zigzag.png"
+import card_one from "../asset/Rectangle 4.png"
+import card_two from "../asset/Rectangle 5.png"
+import card_three from "../asset/Rectangle 6.png"
 const Home = () => {
   return (
 <React.Fragment>
@@ -52,19 +55,19 @@ const Home = () => {
                <div className='home-req-left'>
                     <div className='home-req-left-content'>
                       <div className='home-icon'>
-                          <img src={user} alt="user"/>
+                          <img src={user} alt="user" style={{width: "48px", height: "57.77px"}}/>
                           <span>Create an Account</span>
                       </div>
                       <div className='home-icon'>
-                           <img src={event} alt="user"/>
+                           <img src={event} alt="user" style={{width: "48px"}}/>
                            <span>Join an Event</span>
                       </div>
                       <div className='home-icon'>
-                           <img src={req} alt="user"/>
+                           <img src={req} alt="user" style={{width: "48px"}}/>
                            <span>Submit Requirement</span>
                       </div>
                       <div className='home-icon'>
-                           <img src={shortlist} alt="user"/>
+                           <img src={shortlist} alt="user" style={{width: "48px"}}/>
                            <span>Get Shortlisted</span>
                       </div>
                       <div className='home-icon'>
@@ -172,6 +175,22 @@ const Home = () => {
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing 
                  elit. Ipsum, perspiciatis autem? Quasi aliquam facilis quae </p>
                  <img src={zigzag} alt={zigzag}/>
+            </div>
+            <div className='blog-env'>
+               <div className='blog-content'>
+                    <div className='blog-card'>
+                         <img src={card_one} alt={card_one}/>
+                         <div className='card-desc'></div>
+                    </div>
+                    <div className='blog-card'>
+                         <img src={card_two} alt={card_two}/>
+                         <div className='card-desc'></div>
+                    </div>
+                    <div className='blog-card'>
+                         <img src={card_three} alt={card_three}/>
+                         <div className='card-desc'></div>
+                    </div>
+               </div>
             </div>
         </div>
 </React.Fragment>
