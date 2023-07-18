@@ -13,7 +13,7 @@ const Nav = () => {
                     <div className='nav-links'>
                          <li><Link to="/about">About Us</Link></li>
                          <li><Link to="/faq">Events</Link></li>
-                         <li><Link to="/talents">Talents</Link></li>
+                         <li><Link to="/talent">Talents</Link></li>
                          <li><Link to="/contact">Contact</Link></li>
                     </div>
                     <div className='btn-join'>
