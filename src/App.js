@@ -5,11 +5,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Home from './pages/Home';
-
-
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Talents from './pages/Talents';
-
+import AboutEvent from './pages/AboutEvent';
 
 function App() {
   return (
@@ -22,6 +20,7 @@ function App() {
     <Route exact path="/faq" element={<Faq/>}/>
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/talent" element={<Talents/>}/>
+    <Route exact path="/event" element={<AboutEvent/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

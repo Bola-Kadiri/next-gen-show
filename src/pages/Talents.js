@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Talents.css"
-import { Link } from 'react-router-dom'
+
+import ShowLink from '../component/ShowLink'
 
 const Talents = () => {
   return (
@@ -23,10 +24,7 @@ const Talents = () => {
          <div className='stage-show-content'> 
               <div className='stage-show-content-overlay'>
                    <div className='stage-show-others'>
-                       <div className='stage-show-link'>
-                            <li><Link className='first-show'>ABOUT EVENT</Link></li>
-                            <li><Link className='second-show'>PARTICIPANTS</Link></li>
-                       </div>
+                       <ShowLink/>
                        <div className='show-box'></div>
                        <div className='show-text'>
                             <h3>The Stage Time Show</h3>

@@ -38,7 +38,7 @@ const Footer = () => {
                           <p>Privacy policy</p>
                      </div>
                 </div>
-                   hfhfhh
+                   <span>Copyright © 2023 The NextGen Show</span>
            </div>
        
          </div>

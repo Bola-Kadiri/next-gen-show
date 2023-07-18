@@ -1,0 +1,17 @@
+.stage-show-link{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+  }
+  .stage-show-link li, a{
+     list-style: none;
+     text-decoration: none;
+  }
+  .first-show{
+    color: #23ACE8;
+  }
+  .second-show{
+    color: #fff;
+  }

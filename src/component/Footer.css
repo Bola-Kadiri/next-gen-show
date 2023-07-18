@@ -104,3 +104,9 @@
     margin-bottom: 15px;
     font-size: 14px;
 }
+.bottom-footer span{
+    color: #fff;
+    opacity: 0.6;
+    margin: 20px 0px 5px 0px;
+    padding: 20px 0px 5px 0px;
+}
