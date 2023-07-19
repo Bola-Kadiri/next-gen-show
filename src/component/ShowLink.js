@@ -7,7 +7,7 @@ const ShowLink = () => {
   return (
     <div className='stage-show-link'>
          <li><Link to="/event" className='first-show'>ABOUT EVENT</Link></li>
-         <li><Link className='second-show'>PARTICIPANTS</Link></li>
+         <li><Link to="/category" className='second-show'>PARTICIPANTS</Link></li>
     </div>
   )
 }

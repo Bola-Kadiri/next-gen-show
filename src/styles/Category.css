@@ -1,0 +1,15 @@
+
+.artist-header-cat{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 10px 0px;
+  border-bottom: 1.5px solid #23ACE8;
+  width: 30%;
+}
+
+.best-artist-cat{
+    min-height: 50vh;
+    margin-bottom: 50px;
+    margin-top: 30px;
+   }

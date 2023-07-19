@@ -1,12 +1,10 @@
 import React from 'react'
-import "../styles/AboutEvent.css"
-import { CiSearch } from 'react-icons/ci';
-import ShowLink from '../component/ShowLink'
-import { Link } from 'react-router-dom';
+import "../styles/Category.css"
+
 import BestArtist from '../component/BestArtist';
 
 
-const AboutEvent = () => {
+const Category = () => {
   return (
     <React.Fragment>
     <div className='about-event'>
@@ -27,42 +25,20 @@ const AboutEvent = () => {
          <div className='about-event-artist-content'> 
               <div className='about-event-artist-contentoverlay'>
                    <div className='about-event-others'>
-                        <ShowLink/>
-                        <div className='filter-show'>
-                             <div className='search-filter'>
-                                  <CiSearch style={{fontSize: "30px"}}/>
-                                  <input type="search" placeholder='Search for answers'/>
-                             </div>
-                             <div className='fiter-btn'></div>
-                        </div>
                         <div className='artist-houst'>
                              <div className='artist-header'>
                                    <div className='categ'> <span>Category</span>: <p>BEST ARTIST FEMALE</p></div>
-                                   <Link to="/">View all</Link>
                             </div>
                             <BestArtist/>
                     
                         </div>
                         <div className='artist-houst'>
-                             <div className='artist-header'>
-                                   <div className='categ'> <span>Category</span>: <p>BEST ARTIST FEMALE</p></div>
-                                   <Link to="/">View all</Link>
-                            </div>
+                             
                             <BestArtist/>
                         </div>
                         <div className='artist-houst'>
-                             <div className='artist-header'>
-                                   <div className='categ'> <span>Category</span>: <p>BEST ARTIST FEMALE</p></div>
-                                   <Link to="/">View all</Link>
-                            </div>
+                             
                             <BestArtist/>
-                        </div>
-                        <div className='btn-page'>
-                             <div className='btn-page-content'>
-                                  <button>1</button>
-                                  <button>2</button>
-                                  <button>3</button>
-                             </div>
                         </div>
                    </div>
                  
@@ -75,4 +51,4 @@ const AboutEvent = () => {
   )
 }
 
-export default AboutEvent
+export default Category
