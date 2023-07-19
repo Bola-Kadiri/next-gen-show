@@ -65,6 +65,32 @@
     align-items: center;
    
   }
+  .talent-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .talent-content h1{
+    font-size: 64px;
+  }
+  .talent-content p{
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .talent-content span{
+    font-size: 24px;
+    color:#FFCC15;
+    display: block;
+  }
+  .talent-content button{
+    width: 100%;
+    max-width: 318px;
+    height: 63px;
+    margin-bottom: 10px;
+    color:#017297;
+    font-size: 16px;
+  }
   .stage-show-others{
     width: 80%;
     min-height: 100vh;

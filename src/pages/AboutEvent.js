@@ -18,7 +18,7 @@ const AboutEvent = () => {
                        <h1>The Stage Time</h1>
                         <p>A show brought to you by NextGen</p>
                         <button>JOIN AS A CONTESTANT</button>
-                        <p>REGISTERATION ENDS ON 1ST JULY, 2023</p>
+                        <span>REGISTERATION ENDS ON 1ST JULY, 2023</span>
                    </div>
               </div>
          </div>

@@ -63,6 +63,30 @@
     justify-content: center;
     align-items: center;
   }
+  .about-event-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-event-content h1{
+    font-size: 64px;
+  }
+  .about-event-content p{
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .about-event-content span{
+    font-size: 24px;
+    color:#FFCC15;
+    display: block;
+  }
+  .about-event-content button{
+    width: 100%;
+    max-width: 318px;
+    height: 63px;
+    margin-bottom: 10px;
+  }
   
   .about-event-others{
     width: 80%;
