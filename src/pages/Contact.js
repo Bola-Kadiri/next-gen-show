@@ -20,10 +20,27 @@ const Contact = () => {
          </div>
     </div>
     <div className='form-contact'>
-         <div className='form-contact-content'>
-              <div className='contact-left'></div>
-              <div className='contact-right'></div>
-         </div>
+         <form className='form-contact-content'>
+              <div className='contact-left'>
+                   <input type='tel'/>
+                   <input type='email'/>
+                   <input type='text'/>
+              </div>
+              <div className='contact-right'>
+                   <div>
+                        <h4>Send us a message</h4>
+                        <span>Lorem ipsum dolor sit amet consectetur.
+                        Sit curabitur nulla justo tellus amet.</span>
+                   </div>
+                   <div className='contact-right-content'>
+                        <input type='text' placeholder='First Name'/>
+                        <input type='text' placeholder='Last Name'/>          
+                   </div>
+                   <input type='email' placeholder='Email address'/>
+                   <textarea>Message</textarea>
+                   <button>Send message</button>
+              </div>
+         </form>
     </div>
     <div className='map'>
          <div className='map-content'>
