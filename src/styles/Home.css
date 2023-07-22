@@ -240,9 +240,10 @@
  }
  .people-box-content{
   width: 70%;
-  height: 300px;
+   min-height: 70vh;
   display: flex;
   justify-content: space-between;
+
  }
  .box-a{
   width:100%;
@@ -308,7 +309,7 @@
 }
 .blog-content{
   width: 80%;
-  height: 400px;
+  min-height: 70vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -329,25 +330,113 @@
  width: 100%;
   
 }
-@media screen and (max-width: 880px){
+
+@media screen and (max-width: 780px){
+  br{
+    display: none;
+  }
   .home-container{
-    width: 100%;
-    margin-left: 30px;
+   
+    margin: 0px;
+  }
+  .home-content{
+    margin-top: 100px;
+    margin-left: 20px;
   }
   .home-content h1{
-    font-size: 55px;
+    width: 100%;
+    font-size: 35px;
     word-spacing: 2px;
-    line-height: 60px;
+    line-height: 45px;
     margin-bottom: 25px;
   }
   .home-content p{
-    width: 100%;
+    width: 90%;
     font-size: 20px;
     line-height: 30px;
     word-spacing: 2px;
     margin-bottom: 25px;
     opacity: 0.8;
   }
+  .home-requirement-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center;  
+  }
+  .home-req-left{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .home-icon{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .home-icon span{
+    width: 100%;
+    margin-left: 20px;
+  }
+  .works-content p{
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .home-req-right-content{
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  .people-box-content{
+    width: 90%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+   }
+   .home-req-right{
+    width: 100%;
+    height: 450px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+   
+  }
+  .home-req-right-content p{
+    width: 100%;
+  }
+  
+   .box-a{
+    max-width: 100%;
+    width: 400px;
+    margin-top:20px;
+   }
+   .blog-env{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .blog-content{
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
 }
 @media screen and (max-width: 480px){
   .home-content h1{
