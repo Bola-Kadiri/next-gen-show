@@ -1,7 +1,6 @@
 .talent{
     width: 100%;
     height: 50vh;
-    background-color: red;
    }
  
  .bg-talent {
@@ -27,7 +26,6 @@
      width: 100%;
      min-height: 70vh;
     background-color: rgba(0,0,0, 0.5);
-
     background-image: linear-gradient(to right, rgba(17, 47, 200, 0.5),rgba(217, 15, 100, 0.5));
      color: #fff;
      z-index: 0;
@@ -70,6 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   .talent-content h1{
     font-size: 64px;
@@ -98,7 +97,7 @@
  
   .show-box{
     width: 100%;
-    height: 626px;
+    min-height: 70vh;
     background-color: #D9D9D9;
     padding: 20px 0px 80px 0px;
     margin: 20px 0px 80px 0px;
@@ -106,7 +105,7 @@
 
   .show-text{
     width: 100%;
-    height: 555px;
+    min-height: 70vh;
     color: #fff;
   }
   .show-text h3{
@@ -118,4 +117,36 @@
     line-height: 30px;
     margin: 20px 0px;
     padding: 20px 0px;
+  }
+  
+  @media screen and (max-width: 780px){
+    .talent-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .talent-content h1{
+      font-size: 24px;
+      margin-top: 80px;
+    }
+    .talent-content p{
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .talent-content span{
+      font-size: 16px;
+      color:#FFCC15;
+      display: block;
+      text-align: center;
+    }
+    .talent-content button{
+      width: 100%;
+      max-width: 200px;
+      height: 40px;
+      margin-bottom: 10px;
+      color:#017297;
+      font-size: 16px;
+    }
   }

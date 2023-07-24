@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Category.css"
+import "../styles/AboutEvent.css"
 
 import BestArtist from '../component/BestArtist';
 
