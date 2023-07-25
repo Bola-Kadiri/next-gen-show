@@ -29,7 +29,7 @@ const Home = () => {
                         stand out as a goal getter
                         </p>
                         <div className='home-link'>
-                             <Link>Join Us</Link>
+                             <Link to="signup">Join Us</Link>
                              <div className='bullet'>
                                   <img src={tab} alt="img2"/>
                                   <span>How it works</span>

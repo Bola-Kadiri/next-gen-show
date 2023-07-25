@@ -1,0 +1,43 @@
+.signup{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+   }
+   .signup-left{
+    width: 50%;
+    min-height: 100vh;
+   }
+ 
+ .bg-signup-left {
+     position: absolute;
+     background-image: url("../asset/austin-neill-sxxnM-tRlVg-unsplash\ 1\ \(1\).png");
+     width: 50%;
+     min-height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: right;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 0;
+     
+  }
+   
+  .bg-signup-left-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 50%;
+     min-height: 100vh;
+     background-color: rgba(0, 0, 0, 0.45);
+     color: #fff;
+     z-index: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .signup-right{
+    width: 50%;
+    min-height: 100vh;
+    background-color: #fff;
+   }

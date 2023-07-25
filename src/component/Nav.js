@@ -22,11 +22,11 @@ const Nav = () => {
                          <li><Link to="/talent">Talents</Link></li>
                          <li><Link to="/contact">Contact</Link></li>
                          
-                         <li className='join'><Link to="/join">Join Us</Link></li>
+                         <li className='join'><Link to="/signup">Join Us</Link></li>
           
                     </div>
                     <div className='btn-join'>
-                         <li><Link to="/join">Join Us</Link></li>
+                         <li><Link to="/signup">Join Us</Link></li>
                     </div>
                     <button className="bars" onClick={handleMobile}>{ mobile ? < FaTimes className='mobile-bars' /> : < FaBars className='mobile-bars' />}</button>
                </div>
