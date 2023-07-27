@@ -187,3 +187,56 @@
   justify-content: center;
   align-items: center;
  }
+ .email{
+    margin: 20px 0px;
+ }
+ .forget-paswd{
+    margin-bottom: 20px;
+ }
+ .forget-paswd div{
+    visibility: hidden;
+ }
+ .forget-paswd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .google{
+    width: 100%;
+    display: block;
+    background-color: #F8F8F8;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+   }
+   .google a{
+    margin-left: 20px;
+    color: #000;
+   }
+   .line-or{
+    width: 100%;
+    display: block;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+   }
+   .or{
+    width: 35%;
+    height: 0.1px;
+    border: 0.1px solid rgb(216, 210, 210);
+   }
+   .line-or span{
+    margin: 0px 15px;
+   }
+   .device{
+    display: flex;
+   }
+   .device img{
+    margin-right: 15px;
+   }

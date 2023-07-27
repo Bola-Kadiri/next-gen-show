@@ -94,7 +94,7 @@ const Signup = () => {
                        </div>
                       
                    </div>
-                   <div className='signup-btn'><button>Get Started</button></div>
+                   <div className='signup-btn'><button><Link to="/cofirmSignup">Get Started</Link></button></div>
                    <div className='account'>
                         <span>Already have an account?  <Link to="/login">Login</Link></span>
                    </div>

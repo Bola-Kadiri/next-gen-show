@@ -1,0 +1,52 @@
+.confirm-signup-right{
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+   .confirm-signup-right-content{
+    width: 60%;
+    min-height: 60vh;
+   }
+
+   .confirm-signup-right-content h1{
+    margin: 40px 0px 20px 0px;
+   }
+  
+   .social-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+    padding: 20px 0px 50px 0px;
+   }
+   .gmail{
+    display: flex;
+    align-items: center;
+   }
+   .gmail img{
+    margin-right: 10px;
+   }
+   .microsoft{
+    display: flex;
+    align-items: center;
+   }
+   .microsoft img{
+    margin-right: 10px;
+   }
+   .gmail a, .microsoft a{
+    color: #143DF2;
+    text-decoration: underline;
+   }
+   .no-email h4{
+    margin: 5px 0px;
+    padding: 5px 0px;
+   }
+   .no-email a{
+    color: #23ACE8;
+    text-decoration: underline;
+    margin: 10px 0px;
+    padding: 10px 0px;
+   }

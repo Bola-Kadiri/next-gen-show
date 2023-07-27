@@ -3,8 +3,9 @@ import "../../styles/Login.css"
 import {Link} from "react-router-dom"
 import logo from "../../asset/The Next Gen SHOW.png";
 import input_tick from "../../asset/input-tick.png";
-
+import google from "../../asset/devicon_google.png"
 import eye from "../../asset/eye-slash.png";
+import ellipse from "../../asset/Ellipse 3248.png"
 
 
 const Login = () => {
@@ -33,6 +34,15 @@ const Login = () => {
                    <h1>Hi, welcome back</h1>
                    <p>Empower your experience, sign up for free today </p>
                    <form className='form-input'>
+                        <div className='google'>
+                             <img src={google} alt={google}/>
+                             <Link to="/*">Login with Google</Link>
+                        </div>
+                        <div className='line-or'>
+                             <div className='or'></div>
+                             <span>Or</span>
+                             <div className='or'></div>
+                        </div>
                          <label>Email*</label><br/>
                          <div className='email'>
                               <input type="email"/>
@@ -42,6 +52,14 @@ const Login = () => {
                          <div className='paswd'>
                                <input  type="password"/>
                                <img src={eye} alt={eye}/>
+                         </div>
+                         <div className='forget-paswd'>
+                              <div>password</div>
+                              <Link to="/*">Forget password?</Link>
+                         </div>
+                         <div className='device'>
+                              <img src={ellipse} alt={ellipse}/>
+                              <p>Remember this device</p>
                          </div>
                    </form>
                    <div className='signup-btn'><button>Get Started</button></div>
