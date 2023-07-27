@@ -3,6 +3,9 @@ import './App.css';
 import Signup from './pages/Auth/Signup';
 
 import Container from './pages/Container';
+import Login from './pages/Auth/Login';
+
+
 
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
     <Routes>
     <Route exact path="/*" element={<Container/>}/>
     <Route exact path="/signup" element={<Signup/>}/>
+    <Route exact path="/login" element={<Login/>}/>
     </Routes>
     </BrowserRouter>
     
