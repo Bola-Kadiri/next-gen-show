@@ -34,26 +34,26 @@ const AccountStageOne = () => {
              </div>
              <img src={arrow_left} alt={arrow_left}/>
              <div className='account-tell-us'>
-             <h2>Tell us a bit about you</h2>
-             <p>That will help us better account setup for you</p>
-             <form>
+                  <h2>Tell us a bit about you</h2>
+                  <p>That will help us better account setup for you</p>
+                  <form>
                   <div className='account-name'>
                        <div className="account-first-name">
-                            <label>First name</label>
+                            <label>First name</label><br/>
                             <input type="text"/>
                        </div>
                        <div className="account-last-name">
-                            <label>Last name</label>
+                            <label>Last name</label><br/>
                             <input type="text"/>
                        </div>
                   </div>
                   <div className='account-nick-name'>
-                       <label>Stage/Nickname</label>
+                       <label>Stage/Nickname</label><br/>
                        <input type="text"/>
                   </div>
                   <div className='account-next'>
-                  <div className='skip'><Link to="/stage-two">skip</Link></div>
-                  <button><Link to="/stage-two">Next</Link></button>
+                       <div className='skip'><Link to="/stage-two">skip</Link></div>
+                       <button><Link to="/stage-two" className='next'>Next</Link></button>
                   </div>
              </form>
         </div>

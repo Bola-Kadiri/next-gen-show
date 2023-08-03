@@ -48,7 +48,7 @@ const AccountPortfolio  = () => {
                   </div>
                  
                   <div className='account-next'>
-                  <button><Link to="/account-portfolio">Proceed to profile</Link></button>
+                  <button><Link to="/profile-one">Proceed to profile</Link></button>
                   </div>
              </form>
         </div>

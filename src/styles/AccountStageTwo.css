@@ -81,3 +81,18 @@
 .next {
     color: #fff;
 }  
+.talent-input{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.talent-input input{
+    width: 280px;
+    padding: 10px 0px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #F8F8F8
+}

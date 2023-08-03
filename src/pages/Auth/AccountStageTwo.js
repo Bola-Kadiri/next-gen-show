@@ -1,7 +1,8 @@
 import React from 'react'
-import "../../styles/AccountStageOne.css"
+import "../../styles/AccountStageTwo.css"
 import logo from "../../asset/The Next Gen SHOW.png";
 import arrow_left from "../../asset/arrow-left.png"
+import afro from "../../asset/afro.png"
 import {Link} from "react-router-dom"
 const AccountStageTwo = () => {
   return (
@@ -34,22 +35,20 @@ const AccountStageTwo = () => {
              </div>
              <img src={arrow_left} alt={arrow_left}/>
              <div className='account-tell-us'>
-             <h2>Tell us a bit about you</h2>
-             <p>That will help us better account setup for you</p>
+             <h2>What is your Talent/Skill?</h2>
              <form>
                   <div className='account-name'>
                        <div className="account-talent">
                             <label>Select youtr talent or skill*</label>
                            <div className='talent-input'>
                                 <input type="text"/>
-                                <img src={arrow_left} alt={arrow_left}/>
+                                <img src={afro} alt={afro}/>
                            </div>
                        </div>
                   </div>
                  
                   <div className='account-next'>
-                  <div className='skip'><Link to="/build-career">skip</Link></div>
-                  <button><Link to="/build-career">Next</Link></button>
+                  <button><Link to="/build-career" className='next'>Next</Link></button>
                   </div>
              </form>
         </div>

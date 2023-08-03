@@ -9,6 +9,10 @@ import AccountStageOne from './pages/Auth/AccountStageOne';
 import AccountStageTwo from './pages/Auth/AccountStageTwo';
 import AccountCareerBuilder from './pages/Auth/AccountCareerBuilder';
 import AccountPortfolio from './pages/Auth/AccountPortfolio';
+import ProfileOne from './pages/Profile/ProfileOne';
+import ProfileTwo from './pages/Profile/ProfileTwo';
+import JoinEventOne from './pages/join-events/JoinEventOne';
+import JoinEventTwo from './pages/join-events/JoinEventTwo';
 
 
 
@@ -26,6 +30,10 @@ function App() {
     <Route exact path="/stage-two" element={<AccountStageTwo/>}/>
     <Route exact path="/build-career" element={<AccountCareerBuilder/>}/>
     <Route exact path="/account-portfolio" element={<AccountPortfolio/>}/>
+    <Route exact path="/profile-one" element={<ProfileOne/>}/>
+    <Route exact path="/profile-two" element={<ProfileTwo/>}/>
+    <Route exact path="/join-event-one" element={<JoinEventOne/>}/>
+    <Route exact path="/join-event-two" element={<JoinEventTwo/>}/>
 
     </Routes>
     </BrowserRouter>

@@ -60,7 +60,7 @@ const Home = () => {
                       </div>
                       <div className='home-icon'>
                            <img src={event} alt="user" style={{width: "48px"}}/>
-                           <span>Join an Event</span>
+                           <span><Link to="/join-event-one">Join an Event</Link></span>
                       </div>
                       <div className='home-icon'>
                            <img src={req} alt="user" style={{width: "48px"}}/>
