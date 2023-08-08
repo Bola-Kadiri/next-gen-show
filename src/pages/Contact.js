@@ -14,7 +14,9 @@ const Contact = () => {
                    <div className='contact-content'>
                        <h1>You’ve got vital info for us?</h1>
                         <p>Do well and reach out to us</p>
-                        <Link><button>Contact Us</button></Link>
+                        <div className='contact-btn'>
+                             <Link><button>Contact Us</button></Link>
+                        </div>
                    </div>
               </div>
          </div>
@@ -22,15 +24,24 @@ const Contact = () => {
     <div className='form-contact'>
          <form className='form-contact-content'>
               <div className='contact-left'>
-                   <input type='tel'/>
-                   <input type='email'/>
-                   <input type='text'/>
+                   <div className='contact-input-left'>
+                        <p>Phone</p>
+                        <input type='tel'placeholder='+234 908 8867 843'/>
+                   </div>
+                   <div className='contact-input-left'>
+                        <p>Email</p>
+                        <input type='email' placeholder='help@thenextgenshow.com'/>
+                   </div>
+                   <div className='contact-input-left'>
+                        <p>Office</p>
+                        <input type='text' placeholder='78, Westhill Estate, Abuja'/>
+                   </div>
               </div>
               <div className='contact-right'>
-                   <div>
+                   <div className='contact-right-header'>
                         <h4>Send us a message</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur.
-                        Sit curabitur nulla justo tellus amet.</span>
+                        <p>Lorem ipsum dolor sit amet consectetur.
+                        Sit curabitur nulla justo tellus amet.</p>
                    </div>
                    <div className='contact-right-content'>
                         <input type='text' placeholder='First Name'/>

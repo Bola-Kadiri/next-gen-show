@@ -15,6 +15,12 @@ import zigzag from "../asset/zigzag.png"
 import card_one from "../asset/Rectangle 4.png"
 import card_two from "../asset/Rectangle 5.png"
 import card_three from "../asset/Rectangle 6.png"
+import our_event_one from "../asset/our-event-one.png"
+import our_event_two from "../asset/our-event-two.png"
+import our_event_three from "../asset/our-event-three.png"
+import our_event_four from "../asset/our-event-four.png"
+import our_event_five from "../asset/our-event-five.png"
+import arrow_right from "../asset/arrow-right.png"
 const Home = () => {
   return (
 <React.Fragment>
@@ -103,28 +109,77 @@ const Home = () => {
          </div>
        
     </div>
-    <div className='event'>
-         <div className='event-content'>
-              <h2>Ongoing Events</h2>
-              <div className='event-box'>
-                   <div className='event-left'>
-                       <h3>Stage Times</h3>
-                       <p>Other Event</p>
-                       <p>Other Event</p>
-                       <p>Other Event</p>
+    <div className='ongoing-event-section'>
+         <div className='onging-event-section-content'> 
+              <div className='onging-event-section-contentoverlay'>
+                   <div className='ongoing-event-others'>
+                     <span>Ongoing Events</span>
+                     <div className='ongoing-event-others-container'>
+                            <div className='ongoing-event-left'>
+                                 <h3>Stage Time</h3>
+                                 <div className='other-event'>
+                                      <div>Other Event</div>
+                                      <div>Other Event</div>
+                                      <div>Other Event</div>
+                                      <div>Other Event</div>
+                                 </div>
+                            </div>
+                            <div className='ongoing-event-right'>
+                                 <div className='ongoing-img'>
+                                      <img src={our_event_three} alt={our_event_three}/>
+                                      <div className='ongoing-content-img'>
+                                           <div className='ongoing-content-img-inner'>
+                                                <p>Stage Time</p>
+                                                <button>Join</button>
+                                           </div>
+                                      </div>
+                                 </div>
+                                 <div className='ongoing-img'>
+                                      <img src={our_event_two} alt={our_event_two}/>
+                                      <div className='ongoing-content-img'>
+                                           <div className='ongoing-content-img-inner'>
+                                                <p>Stage Time</p>
+                                                <button>Join</button>
+                                           </div>
+                                      </div>
+                                 </div>
+                                 <div className='ongoing-img'>
+                                      <img src={our_event_five} alt={our_event_five}/>
+                                      <div className='ongoing-content-img'>
+                                           <div className='ongoing-content-img-inner'>
+                                                <p>Stage Time</p>
+                                                <button>Join</button>
+                                           </div>
+                                      </div>
+                                 </div>
+                                 <div className='ongoing-img'>
+                                      <img src={our_event_one} alt={our_event_one}/>
+                                      <div className='ongoing-content-img'>
+                                           <div className='ongoing-content-img-inner'>
+                                                <p>Stage Time</p>
+                                                <button>Join</button>
+                                           </div>
+                                      </div>
+                                 </div>
+                                 <div className='ongoing-img'>
+                                      <img src={our_event_four} alt={our_event_four}/>
+                                      <div className='ongoing-content-img'>
+                                           <div className='ongoing-content-img-inner'>
+                                                <p>Stage Time</p>
+                                                <button>Join</button>
+                                            </div>
+                                      </div>
+                                 </div>
+                                
+                            </div>
+                     </div>
                    </div>
-                   <div className='event-right'>
-                        <div className='event-card'>
-                             <img alt="img"/>
-                             <img alt="img"/>
-                             <img alt="img"/>
-                             <img alt="img"/>
-                             <img alt="img"/>
-                        </div>
-                   </div>
-              </div>
+            
+               </div>
+        
          </div>
-    </div>
+   
+     </div>
     <div className='people-say'>
          <h1>What people say about Us</h1>
          <div className='people-box'>
@@ -180,15 +235,39 @@ const Home = () => {
                <div className='blog-content'>
                     <div className='blog-card'>
                          <img src={card_one} alt={card_one}/>
-                         <div className='card-desc'></div>
+                         <div className='card-desc'>
+                              <div className='arrow'>
+                                   <img src={arrow_right} alt={arrow_right}/>
+                              </div>
+                              <div className='blog-date'>
+                                    <span>26th June</span>
+                                    <h3>Lorem Ipsum</h3>
+                              </div>
+                         </div>
                     </div>
                     <div className='blog-card'>
                          <img src={card_two} alt={card_two}/>
-                         <div className='card-desc'></div>
+                         <div className='card-desc'>
+                              <div className='arrow'>
+                                   <img src={arrow_right} alt={arrow_right}/>
+                              </div>
+                              <div className='blog-date'>
+                                   <span>26th June</span>
+                                   <h3>Lorem Ipsum</h3>
+                              </div>
+                         </div>
                     </div>
                     <div className='blog-card'>
                          <img src={card_three} alt={card_three}/>
-                         <div className='card-desc'></div>
+                         <div className='card-desc'>
+                              <div className='arrow'>
+                                   <img src={arrow_right} alt={arrow_right}/>
+                              </div>
+                              <div className='blog-date'>
+                                    <span>26th June</span>
+                                    <h3>Lorem Ipsum</h3>
+                              </div>
+                         </div>
                     </div>
                </div>
             </div>

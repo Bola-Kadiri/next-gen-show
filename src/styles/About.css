@@ -49,10 +49,13 @@
   .intro-vision h1{
    color: #017297;
    margin-top: 30px;
+   font-size: 32px;
   }
   .intro-vision p{
    width: 85%;
    margin-bottom: 20px;
+   font-size: 20px;
+   letter-spacing: 0.5px;
   }
   .para-vision{
    font-weight: 700;
@@ -65,6 +68,10 @@
   .our-vission{
    margin-left: 150px;
   }
+  .our-vission p{
+   font-size: 20px;
+   letter-spacing: 0.5px;
+  }
   .our-mision{
    margin-left: 150px;
   }
@@ -75,6 +82,8 @@
   .our-mision p{
    width: 85%;
    margin-bottom: 30px;
+   font-size: 20px;
+   letter-spacing: 0.5px;
   }
   .meet-partner h1{
    text-align: center;
