@@ -39,7 +39,7 @@ const UpcomingEvent = () => {
               <div className='other-upcoming-event'>
                    <div className='other-upcoming-event-content'>
                         <h3>Other Upcoming Events</h3>
-                        <Link>View  all</Link>
+                        <Link to="/talent">View  all</Link>
                    </div>
                    <div className='roller-coaster'>
                         <div className='roller-coaster-content'>
