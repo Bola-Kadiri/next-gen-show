@@ -9,6 +9,7 @@ import { Route, Routes} from 'react-router-dom';
 import Talents from '../pages/Talents';
 import AboutEvent from '../pages/AboutEvent';
 import Category from '../pages/Category'
+import UpcomingEvent from './UpcomingEvent';
 
 
 const Container = () => {
@@ -21,6 +22,7 @@ const Container = () => {
     <Route exact path="/faq" element={<Faq/>}/>
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/talent" element={<Talents/>}/>
+    <Route exact path="/upcoming-event" element={<UpcomingEvent/>}/>
     <Route exact path="/event" element={<AboutEvent/>}/>
     <Route exact path="/category" element={<Category/>}/>
     

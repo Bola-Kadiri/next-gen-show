@@ -19,7 +19,7 @@ const Nav = () => {
                     <div className={mobile ? "show" :  "nav-links"}>
                          <li><Link to="/about">About Us</Link></li>
                          <li><Link to="/faq">FAQ</Link></li>
-                         <li><Link to="/talent">Talents</Link></li>
+                         <li><Link to="/upcoming-event">Talents</Link></li>
                          <li><Link to="/contact">Contact</Link></li>
                          
                          <li className='join'><Link to="/signup">Join Us</Link></li>
