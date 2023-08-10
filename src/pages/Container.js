@@ -10,6 +10,7 @@ import Talents from '../pages/Talents';
 import AboutEvent from '../pages/AboutEvent';
 import Category from '../pages/Category'
 import UpcomingEvent from './UpcomingEvent';
+import Participant from './Participant';
 
 
 const Container = () => {
@@ -25,6 +26,7 @@ const Container = () => {
     <Route exact path="/upcoming-event" element={<UpcomingEvent/>}/>
     <Route exact path="/event" element={<AboutEvent/>}/>
     <Route exact path="/category" element={<Category/>}/>
+    <Route exact path="/participant" element={<Participant/>}/>
     
   
     </Routes>
