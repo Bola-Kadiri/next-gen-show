@@ -27,6 +27,7 @@ const Container = () => {
     <Route exact path="/event" element={<AboutEvent/>}/>
     <Route exact path="/category" element={<Category/>}/>
     <Route exact path="/participant" element={<Participant/>}/>
+  
     
   
     </Routes>

@@ -1,0 +1,40 @@
+.admin-nav{
+    width: 18%;
+    height: 861px;
+    background-color: #F3F3F5;
+}
+.admin-nav-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-box-home{
+   display: flex;
+   align-items: center;
+    width: 75%;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.nav-box-home a{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+
+.create-btn{
+    width: 75%;
+    height: 63px;
+    background-color: #23ACE8;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-btn a span{
+    color: #fff;
+    margin-left: 10px;
+}
+

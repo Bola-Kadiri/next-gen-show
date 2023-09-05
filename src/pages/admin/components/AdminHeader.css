@@ -1,0 +1,30 @@
+.admin-header{
+    width: 100%;
+    background-color: #081647;
+    padding: 20px 0px;
+}
+.admin-header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-header-content .image{
+    margin-left: 150px;
+}
+.admin-header-content .admin-boss-right{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 150px;
+}
+.alarm{
+    margin-right: 25px;
+    padding-right: 10px;
+}
+.admin-boss-right span{
+    margin-left: 25px;
+    padding-left: 10px;
+    color: #fff;
+}

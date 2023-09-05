@@ -1,0 +1,45 @@
+.shortlist{
+    width: 82%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.shortlist-content{
+    width: 77%;
+    min-height: 80vh;
+   
+}
+.shortlist-progress{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.progress-one{
+    width: 100%;
+    max-width: 295px;
+    height: 117px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.total-event p{
+    color: #8A92A6;
+    margin-bottom: 10px;
+}
+.event-search-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-btn{
+    display: flex;
+    align-items: center;
+}
+.filter-btn button{
+    margin-right: 15px;
+}

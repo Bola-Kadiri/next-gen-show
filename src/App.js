@@ -13,6 +13,16 @@ import ProfileOne from './pages/Profile/ProfileOne';
 import ProfileTwo from './pages/Profile/ProfileTwo';
 import JoinEventOne from './pages/join-events/JoinEventOne';
 import JoinEventTwo from './pages/join-events/JoinEventTwo';
+import Admin from './pages/admin/components/Admin';
+import AdminShortlistCon from './pages/admin/AdminShortlistCon';
+import AdminHomeCon from './pages/admin/components/AdminHomeCon';
+import AdminAllCon from './pages/admin/components/AdminAllCon';
+import AdminAllEventCon from './pages/admin/components/AdminAllEventCon';
+import AdminEditCon from './pages/admin/AdminEditCon';
+import AdminAllPartCon from './pages/admin/AdminAllPartCon';
+import AdminCreateCon from './pages/admin/AdminCreateCon';
+
+
 
 
 
@@ -34,6 +44,17 @@ function App() {
     <Route exact path="/profile-two" element={<ProfileTwo/>}/>
     <Route exact path="/join-event-one" element={<JoinEventOne/>}/>
     <Route exact path="/join-event-two" element={<JoinEventTwo/>}/>
+    <Route exact path="/admin" element={<Admin/>}>  
+      <Route exact path="admin-shortlist" element={<AdminShortlistCon/>}/> 
+      <Route exact path="admin-home" element={<AdminHomeCon/>}/> 
+      <Route exact path="admin-all" element={<AdminAllCon/>}/> 
+      <Route exact path="admin-all-event" element={<AdminAllEventCon/>}/> 
+      <Route exact path="admin-edit" element={<AdminEditCon/>}/> 
+      <Route exact path="admin-all-participant" element={<AdminAllPartCon/>}/> 
+      <Route exact path="admin-create" element={<AdminCreateCon/>}/> 
+
+  
+    </Route>
 
     </Routes>
     </BrowserRouter>
