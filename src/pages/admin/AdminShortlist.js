@@ -3,10 +3,10 @@ import "./components/AdminShortlist.css";
 import progress from "../../asset/progress.png"
 import arrow_down from "../../asset/arrow-down.png"
 import search from "../../asset/search.png"
-import flag from "../../asset/flag.png"
-import remove from "../../asset/remove.png"
-import edit from "../../asset/edit.png"
-import checkbox from "../../asset/_Checkbox base.png"
+// import flag from "../../asset/flag.png"
+// import remove from "../../asset/remove.png"
+// import edit from "../../asset/edit.png"
+// import checkbox from "../../asset/_Checkbox base.png"
 const AdminShortlist = () => {
   return (
     <div className='shortlist'>
